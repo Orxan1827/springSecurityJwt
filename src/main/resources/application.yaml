@@ -1,0 +1,22 @@
+server:
+  port: 8080
+spring:
+  application:
+#    security:
+#      jwt:
+#        secret-key: "SECRET-KEY"
+    name: springsecurityjwt
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/springsecurityjwt
+    username: postgres
+    password: root
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+
+
+
